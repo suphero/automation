@@ -22,8 +22,10 @@ data = findTestData("Logins")
 
 for (def index : (1..data.getRowNumbers())) {
 	dataLoginId = data.getValue("Id", index) as Integer
-	if (dataLoginId != loginId) continue
-
+	if (dataLoginId != loginId as Integer) {
+        continue
+    }
+	
 	def loginDetails = [
 		eMail: data.getValue("EMail", index),
 		password: data.getValue("Password", index)

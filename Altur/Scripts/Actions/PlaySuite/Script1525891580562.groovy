@@ -24,14 +24,14 @@ import internal.GlobalVariable as GlobalVariable
 
 suite = WebUI.callTestCase(findTestCase('ReadData/GetSuite'), [('suiteId') : suiteId], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Actions/Login'), [('loginId') : suite.loginId as Integer], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Actions/Login'), [('loginId') : suite.loginId], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Actions/AddPeople'), [('shortNames') : suite.peopleShortNames], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Actions/SetRoute'), [('fromLocationCode') : suite.fromLocationCode, ('toLocationCode') : suite.toLocationCode], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Actions/SetDate'), [('dayDifference') : ((suite.dayDifference) as Integer)], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Actions/SetDate'), [('dayDifference') : suite.dayDifference], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Actions/SetTime'), [('shortTime') : suite.shortTime], FailureHandling.STOP_ON_FAILURE)
 

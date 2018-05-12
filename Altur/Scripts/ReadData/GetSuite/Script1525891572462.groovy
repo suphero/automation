@@ -22,7 +22,6 @@ data = findTestData('Suites')
 
 for (def index : (1..data.getRowNumbers())) {
     dataId = data.getValue('Id', index) as Integer
-
     if (dataId != suiteId as Integer) {
         continue
     }

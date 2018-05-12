@@ -21,7 +21,7 @@ import groovy.time.TimeCategory as TimeCategory
 
 use(TimeCategory, {
 		today = new Date()
-		date = (today + dayDifference.days).format('dd.MM.yyyy')
+		date = (today + (dayDifference as Integer).days).format('dd.MM.yyyy')
 	})
 
 WebUI.setText(findTestObject('Altur/newVehicleRequestPage/txtDate'), date)
