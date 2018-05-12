@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SetTime</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>00991a7d-9949-4a1f-af5f-6a1dc1b09d4c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>436174f4-b233-4a7e-a407-8bfb2beac717</id>
+      <masked>false</masked>
+      <name>shortTime</name>
+   </variable>
+</TestCaseEntity>

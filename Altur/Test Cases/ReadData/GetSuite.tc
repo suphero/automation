@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetSuite</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a746575-3769-4f66-94f1-c00f976f7617</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>e6243f56-a039-4327-9b14-6affa1d7f9d3</id>
+      <masked>false</masked>
+      <name>suiteId</name>
+   </variable>
+</TestCaseEntity>

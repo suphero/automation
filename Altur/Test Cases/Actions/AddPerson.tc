@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddPerson</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45170707-d878-45a5-bb93-24450ad39379</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>68fd0e50-fb35-4921-9d31-197e560817dd</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>13cc42fd-a8bf-44a2-9b00-631e285b697d</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f66faedc-33fd-4ef7-9fd5-1d14fb070cd5</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

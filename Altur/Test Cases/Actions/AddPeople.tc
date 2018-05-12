@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddPeople</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e827a50-e628-4709-bdca-a31dc6f82e55</testCaseGuid>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>eaac8bc9-abcb-4b07-a75b-ce46ee701fa1</id>
+      <masked>false</masked>
+      <name>shortNames</name>
+   </variable>
+</TestCaseEntity>

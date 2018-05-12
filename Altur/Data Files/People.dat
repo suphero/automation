@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>People</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>62ef30b5-fd4d-41e3-b7bb-72953f58e8d1</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>kisi1 %C4%B0sim1+Soyisim1 05321234567 kisi1%40mail.com %C4%B0sim1+Han%C4%B1m A+Mahallesi+B+Soka%C4%9F%C4%B1</data>
+   <data>kisi2 %C4%B0sim2+Soyisim2 05329876543 kisi2%40mail.com %C4%B0sim2+Bey C+Mahallesi+D+Soka%C4%9F%C4%B1</data>
+   <data>kisi3 %C4%B0sim3+Soyisim3 05421245789 kisi3%40mail.com %C4%B0sim3+Hn E+Mahallesi+F+Soka%C4%9F%C4%B1</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>ShortName</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>FullName</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>PhoneNumber</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>EMail</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>CallOn</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>Address</name>
+      <size>3</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

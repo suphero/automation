@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SetDate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6b9933c2-0e6e-49de-9ccf-5973435646ff</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>142284c7-5af6-4f22-9cd8-864b7744de92</id>
+      <masked>false</masked>
+      <name>dayDifference</name>
+   </variable>
+</TestCaseEntity>

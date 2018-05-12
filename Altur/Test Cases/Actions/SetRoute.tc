@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SetRoute</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>139dae3a-2cc7-45d5-9643-72dcc8125362</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>84665adf-aa93-41d1-a397-de042ec5d03f</id>
+      <masked>false</masked>
+      <name>fromLocationCode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>711009a3-fe95-49c3-a178-6fe00355506d</id>
+      <masked>false</masked>
+      <name>toLocationCode</name>
+   </variable>
+</TestCaseEntity>

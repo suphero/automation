@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetTime</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>330b6982-a60c-4e2a-b58a-cd8fd127574a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>23b594de-c116-4f3c-8884-e6f225544c66</id>
+      <masked>false</masked>
+      <name>shortTime</name>
+   </variable>
+</TestCaseEntity>

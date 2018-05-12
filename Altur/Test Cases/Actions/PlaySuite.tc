@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PlaySuite</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d39409e6-0628-4681-b121-5f9c5544e995</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>596cd6b0-cdc7-4869-aa5c-68237b626eaa</id>
+      <masked>false</masked>
+      <name>suiteId</name>
+   </variable>
+</TestCaseEntity>

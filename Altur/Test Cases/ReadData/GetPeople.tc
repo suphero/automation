@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetPeople</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>78b26a5c-6c97-42fe-a640-1a0970236a6d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>252a7cb3-353d-44e0-9e00-817a32f918c6</id>
+      <masked>false</masked>
+      <name>shortName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetLocation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>addaffd1-9efb-4647-80c8-5c58d9b41db3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>43b60d17-555f-4f7c-b676-a990221ddfc9</id>
+      <masked>false</masked>
+      <name>locationCode</name>
+   </variable>
+</TestCaseEntity>
