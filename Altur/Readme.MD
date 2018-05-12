@@ -1,3 +1,3 @@
-Altur Otomasyon Uygulaması
+# Altur Otomasyon Uygulaması
 
-Projeyi kişiselleştirmek için Data Files klasörü güncellenebilir.
+Projeyi kişiselleştirmek için [Data Files](Data Files) klasörü güncellenebilir.
