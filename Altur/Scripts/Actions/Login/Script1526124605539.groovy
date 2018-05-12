@@ -20,11 +20,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import org.openqa.selenium.Keys as Keys
 import internal.GlobalVariable as GlobalVariable
 
+login = WebUI.callTestCase(findTestCase('ReadData/GetLogin'), [('loginId') : loginId], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.openBrowser('http://dogus.alturkurye.com/Login.aspx')
 
-WebUI.setText(findTestObject('Altur/loginPage/txtEmail'), GlobalVariable.USERNAME)
+WebUI.setText(findTestObject('Altur/loginPage/txtEmail'), login.eMail)
 
-WebUI.setText(findTestObject('Altur/loginPage/txtPassword'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('Altur/loginPage/txtPassword'), login.password)
 
 WebUI.click(findTestObject('Altur/loginPage/btnSignIn'))
 

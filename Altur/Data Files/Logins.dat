@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Logins</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>18b2f9fe-c4d8-4242-b82a-8a5570e1cb2a</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>1 EMAIL PASSWORD Login+1+Y%C3%B6ntemi</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Id</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>EMail</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>Password</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>Explanation</name>
+      <size>1</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

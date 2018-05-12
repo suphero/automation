@@ -4,14 +4,4 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>USERNAME</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>PASSWORD</name>
-   </GlobalVariableEntity>
 </GlobalVariableEntities>

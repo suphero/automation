@@ -13,27 +13,14 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
  */
 public class GlobalVariable {
      
-    /**
-     * <p></p>
-     */
-    public static Object USERNAME
-     
-    /**
-     * <p></p>
-     */
-    public static Object PASSWORD
-     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['USERNAME' : '', 'PASSWORD' : ''])
-        allVariables.put('New Profile', allVariables['default'] + [:])
+        allVariables.put('default', [:])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
         def selectedVariables = allVariables[profileName]
-        USERNAME = selectedVariables['USERNAME']
-        PASSWORD = selectedVariables['PASSWORD']
         
     }
 }

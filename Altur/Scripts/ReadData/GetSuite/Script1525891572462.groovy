@@ -31,6 +31,7 @@ for (def index : (1..data.getRowNumbers())) {
 
     peopleShortNames = WebUI.callTestCase(findTestCase('ReadData/GetGroup'), [('groupId') : groupId], FailureHandling.STOP_ON_FAILURE)
     def suiteDetails = [ 
+		loginId: data.getValue('LoginId', index), 
 		peopleShortNames: peopleShortNames,
         ('fromLocationCode') : data.getValue('FromLocationCode', index), 
 		('toLocationCode') : data.getValue('ToLocationCode', index), 

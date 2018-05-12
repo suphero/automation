@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login</name>
+   <name>GetLogin</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b618c902-980b-4b6f-84ec-a21d4c5fee58</testCaseGuid>
+   <testCaseGuid>e45f4b3d-4202-4839-ae78-75a3475cda8f</testCaseGuid>
    <variable>
       <defaultValue>0</defaultValue>
       <description></description>
-      <id>b9132528-b8c9-4d91-b532-8bb6c5d1cef8</id>
+      <id>38094da7-9349-4eca-bfe3-c9f5ae3ea76f</id>
       <masked>false</masked>
       <name>loginId</name>
    </variable>
