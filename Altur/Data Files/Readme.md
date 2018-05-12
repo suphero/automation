@@ -1,0 +1,1 @@
+Bu klasörde şablon veriler yer almaktadır. Kişisel veri girişi yapılarak proje çalıştırılabilir.

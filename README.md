@@ -1,2 +1,2 @@
 # automation
-Katalon Automation Recorder Cases
+Katalon Studio Automation Recorder Suites & Cases
