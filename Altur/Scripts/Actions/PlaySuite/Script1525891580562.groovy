@@ -24,7 +24,7 @@ import internal.GlobalVariable as GlobalVariable
 
 suite = WebUI.callTestCase(findTestCase('ReadData/GetSuite'), [('suiteId') : suiteId], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Actions/Login'), [('loginId') : suite.loginId], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Actions/Login'), [('loginId') : suite.loginId as Integer], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Actions/AddPeople'), [('shortNames') : suite.peopleShortNames], FailureHandling.STOP_ON_FAILURE)
 
