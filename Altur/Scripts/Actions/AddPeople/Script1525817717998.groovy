@@ -36,5 +36,5 @@ for (String shortName : shortNames) {
 
 def routeExplanationText = routeExplanations.join('\n')
 
-WebUI.setText(findTestObject('Altur/newVehicleRequestPage/txtNotes'), routeExplanationText)
+WebUI.setText(findTestObject('Altur/newVehicleRequestPage/txtStops'), routeExplanationText)
 

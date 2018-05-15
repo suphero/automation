@@ -2,9 +2,7 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import org.junit.After
-
+import org.junit.After as After
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
@@ -28,8 +26,12 @@ WebUI.selectOptionByLabel(findTestObject('Altur/newVehicleRequestPage/drpHour'),
 WebUI.selectOptionByLabel(findTestObject('Altur/newVehicleRequestPage/drpMinute'), time.minute, false)
 
 def desiredTime = time.desiredTime
+
 def inputTimeText = time.hour + ':' + time.minute
+
 if (desiredTime != inputTimeText) {
-	def message = 'Saat tercihi: ' + desiredTime
-	WebUI.setText(findTestObject('Altur/newVehicleRequestPage/txtStops'), message)
+    def message = 'Saat tercihi: ' + desiredTime
+
+    WebUI.setText(findTestObject('Altur/newVehicleRequestPage/txtNotes'), message)
 }
+
